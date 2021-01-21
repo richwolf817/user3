@@ -1,6 +1,7 @@
 import docker 
 client = docker.from_env() 
 
+print("what")
 for container in client.containers.list(): 
     image = container.attrs['Config']['Image']
     if 'topograph-cicd' in image: 
