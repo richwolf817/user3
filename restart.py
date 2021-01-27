@@ -9,3 +9,4 @@ if 'topograph-cicd' in image:
         container.restart()
 
 print("happy time")
+print("hello")
